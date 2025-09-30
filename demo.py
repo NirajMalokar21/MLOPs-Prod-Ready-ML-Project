@@ -1,3 +1,4 @@
-from us_visa.logger import logging 
+from us_visa.pipline.training_pipeline import TrainingPipeline
 
-logging.info("This is a demo file")
+obj = TrainingPipeline()
+obj.run_pipeline()
